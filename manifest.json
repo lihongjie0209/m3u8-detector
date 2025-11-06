@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "M3U8 资源探测器",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "自动检测网页中的m3u8资源链接，并提供便捷的管理和复制功能",
   "permissions": [
     "storage",
