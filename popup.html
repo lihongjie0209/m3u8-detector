@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M3U8 资源探测器</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🎬 M3U8 资源</h1>
+      <button id="refreshBtn" class="icon-btn" title="刷新">🔄</button>
+    </div>
+    
+    <div id="linksContainer">
+      <div id="emptyState" class="empty-state">
+        <p>😴 当前页面未检测到m3u8资源</p>
+        <small>探测器会自动检测网络请求和页面内容</small>
+      </div>
+      
+      <div id="linksList" class="links-list" style="display: none;">
+        <!-- 动态生成的链接列表 -->
+      </div>
+    </div>
+    
+    <div class="footer">
+      <button id="clearBtn" class="btn btn-secondary">清除列表</button>
+      <button id="settingsBtn" class="btn btn-primary">设置</button>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

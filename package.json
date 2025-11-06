@@ -1,0 +1,44 @@
+{
+  "name": "m3u8-detector",
+  "version": "1.0.0",
+  "description": "Chrome扩展：自动检测和管理网页中的m3u8视频流资源",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/m3u8-detector.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "m3u8",
+    "video",
+    "stream",
+    "detector",
+    "hls"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "clean": "node scripts/clean.js",
+    "generate-icons": "node scripts/generate-icons.js",
+    "dev": "node scripts/dev.js",
+    "validate": "node scripts/validate.js",
+    "release": "node scripts/release.js",
+    "release:patch": "node scripts/release.js --type patch",
+    "release:minor": "node scripts/release.js --type minor",
+    "release:major": "node scripts/release.js --type major",
+    "prebuild": "npm run validate",
+    "postbuild": "echo '\n✅ 构建完成！扩展包位于 dist/m3u8-detector.zip'",
+    "rebuild": "npm run clean && npm run build",
+    "prepare": "npm run generate-icons"
+  },
+  "devDependencies": {
+    "archiver": "^7.0.1",
+    "canvas": "^2.11.2",
+    "chokidar": "^3.6.0",
+    "commander": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "private": true
+}

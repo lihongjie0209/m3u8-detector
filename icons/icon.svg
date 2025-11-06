@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#grad)"/>
+  <g transform="translate(24, 24)">
+    <!-- Video screen -->
+    <rect x="0" y="0" width="80" height="56" rx="4" fill="white" opacity="0.9"/>
+    <!-- Play button -->
+    <polygon points="30,20 30,44 54,32" fill="#667eea"/>
+    <!-- M3U8 lines representing streaming -->
+    <rect x="0" y="64" width="24" height="4" rx="2" fill="white" opacity="0.9"/>
+    <rect x="28" y="64" width="24" height="4" rx="2" fill="white" opacity="0.9"/>
+    <rect x="56" y="64" width="24" height="4" rx="2" fill="white" opacity="0.9"/>
+  </g>
+</svg>

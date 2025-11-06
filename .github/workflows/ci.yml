@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [16, 18, 20]
+        
+    steps:
+      - name: Checkout代码
+        uses: actions/checkout@v4
+        
+      - name: 设置Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+          
+      - name: 安装依赖
+        run: npm ci --ignore-scripts
+        
+      - name: 验证扩展文件
+        run: npm run validate
+        
+      - name: 构建扩展
+        run: npm run build
+        
+      - name: 检查构建产物
+        run: |
+          if [ ! -f "dist/m3u8-detector.zip" ]; then
+            echo "❌ 构建失败：未找到扩展包"
+            exit 1
+          fi
+          SIZE=$(stat -f%z "dist/m3u8-detector.zip" 2>/dev/null || stat -c%s "dist/m3u8-detector.zip")
+          echo "✅ 扩展包大小: $((SIZE / 1024)) KB"
+          
+      - name: 上传构建产物
+        uses: actions/upload-artifact@v3
+        if: matrix.node-version == 18
+        with:
+          name: m3u8-detector-build
+          path: dist/m3u8-detector.zip
+          retention-days: 7
