@@ -183,10 +183,9 @@ async function release(options = {}) {
   updateVersion(newVersion);
   
   // 4. 更新CHANGELOG
-  if (options.changelog) {
-    console.log('📝 更新CHANGELOG...');
-    updateChangelog(newVersion, options.changelog);
-  }
+  console.log('📝 更新CHANGELOG...');
+  const changelogContent = options.changelog || '### 更新\n- 版本更新';
+  updateChangelog(newVersion, changelogContent);
   
   // 5. 验证和构建
   console.log('\n🔍 验证扩展...');
