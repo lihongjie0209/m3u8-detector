@@ -9,11 +9,12 @@ const { execSync } = require('child_process');
  */
 function exec(command, options = {}) {
   try {
-    return execSync(command, {
+    const result = execSync(command, {
       encoding: 'utf8',
       stdio: options.silent ? 'pipe' : 'inherit',
       ...options
-    }).trim();
+    });
+    return result ? result.trim() : '';
   } catch (error) {
     if (!options.ignoreError) {
       throw error;
