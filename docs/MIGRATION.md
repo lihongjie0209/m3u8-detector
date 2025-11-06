@@ -232,9 +232,9 @@ brew install pkg-config cairo pango libpng jpeg giflib librsvg pixman
 
 ## 📚 相关文档
 
-- [scripts/README.md](scripts/README.md) - 脚本详细说明
+- [scripts/README.md](../scripts/README.md) - 脚本详细说明
 - [CHEATSHEET.md](CHEATSHEET.md) - 命令速查表
-- [README.md](README.md) - 项目主文档
+- [README.md](../README.md) - 项目主文档
 
 ## 🎉 总结
 

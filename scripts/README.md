@@ -260,8 +260,8 @@ npm run validate
 ## 📖 相关文档
 
 - [README.md](../README.md) - 项目主文档
-- [QUICKSTART.md](../QUICKSTART.md) - 快速开始指南
-- [SUMMARY.md](../SUMMARY.md) - 项目总结
+- [QUICKSTART.md](../docs/QUICKSTART.md) - 快速开始指南
+- [SUMMARY.md](../docs/SUMMARY.md) - 项目总结
 
 ---
 

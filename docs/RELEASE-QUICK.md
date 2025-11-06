@@ -114,7 +114,7 @@ gh release delete v1.0.1
 
 - 📖 [完整发布指南](RELEASE.md)
 - 📋 [更新日志](CHANGELOG.md)
-- 🔧 [构建脚本说明](scripts/README.md)
+- 🔧 [构建脚本说明](../scripts/README.md)
 
 ---
 

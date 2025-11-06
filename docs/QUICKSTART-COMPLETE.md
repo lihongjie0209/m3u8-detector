@@ -330,7 +330,7 @@ node scripts/release.js --help
 
 | 文档 | 说明 |
 |------|------|
-| [README.md](README.md) | 项目主文档 |
+| [README.md](../README.md) | 项目主文档 |
 | [RELEASE.md](RELEASE.md) | 完整发布指南 |
 | [RELEASE-QUICK.md](RELEASE-QUICK.md) | 发布命令速查 |
 | [GITHUB-SETUP.md](GITHUB-SETUP.md) | GitHub 详细设置 |

@@ -132,9 +132,9 @@ npm install --ignore-scripts
 
 ## 🔗 相关链接
 
-- [完整文档](README.md)
+- [完整文档](../README.md)
 - [快速开始](QUICKSTART.md)
-- [脚本说明](scripts/README.md)
+- [脚本说明](../scripts/README.md)
 - [项目总结](SUMMARY.md)
 
 ## 💡 提示
@@ -146,4 +146,4 @@ npm install --ignore-scripts
 
 ---
 
-快速参考完毕！完整文档请查看 [README.md](README.md)
+快速参考完毕！完整文档请查看 [README.md](../README.md)

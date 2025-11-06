@@ -287,7 +287,7 @@ npm run release:patch    # 或 minor/major
 | [RELEASE-QUICK.md](RELEASE-QUICK.md) | 快速命令参考 |
 | [GITHUB-SETUP.md](GITHUB-SETUP.md) | GitHub 仓库初始化指南 |
 | [CHANGELOG.md](CHANGELOG.md) | 版本历史记录 |
-| [README.md](README.md) | 项目主文档 |
+| [README.md](../README.md) | 项目主文档 |
 
 ## ✅ 验证清单
 

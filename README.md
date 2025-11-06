@@ -246,9 +246,9 @@ console.log('M3U8检测内容脚本已加载');
    - 查看 `.github/workflows/ci.yml` 了解详情
 
 详细的发布文档：
-- 📖 [完整发布指南](RELEASE.md) - 详细说明和最佳实践
-- 🚀 [快速发布参考](RELEASE-QUICK.md) - 常用命令速查
-- 📝 [更新日志](CHANGELOG.md) - 版本历史记录
+- 📖 [完整发布指南](docs/RELEASE.md) - 详细说明和最佳实践
+- 🚀 [快速发布参考](docs/RELEASE-QUICK.md) - 常用命令速查
+- 📝 [更新日志](docs/CHANGELOG.md) - 版本历史记录
 
 ### 提交Issue
 - 请详细描述问题或建议

@@ -299,7 +299,7 @@ npm run build      # 重新构建
 
 | 文档 | 用途 | 何时阅读 |
 |------|------|---------|
-| [README.md](README.md) | 项目主文档 | 首次了解项目 |
+| [README.md](../README.md) | 项目主文档 | 首次了解项目 |
 | [QUICKSTART-COMPLETE.md](QUICKSTART-COMPLETE.md) | 完整快速开始 | 首次设置 |
 | [NEXT-STEPS.md](NEXT-STEPS.md) | 下一步指南（本文件） | 完成初始化后 |
 | [CHEATSHEET.md](CHEATSHEET.md) | 命令速查 | 日常开发 |
