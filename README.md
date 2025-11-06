@@ -8,8 +8,8 @@
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-blue?style=flat-square&logo=google-chrome)](https://chrome.google.com)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
-[![GitHub Release](https://img.shields.io/github/v/release/yourusername/m3u8-detector?style=flat-square)](https://github.com/yourusername/m3u8-detector/releases)
-[![CI Status](https://img.shields.io/github/actions/workflow/status/yourusername/m3u8-detector/ci.yml?style=flat-square&label=CI)](https://github.com/yourusername/m3u8-detector/actions)
+[![GitHub Release](https://img.shields.io/github/v/release/lihongjie0209/m3u8-detector?style=flat-square)](https://github.com/lihongjie0209/m3u8-detector/releases)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/lihongjie0209/m3u8-detector/ci.yml?style=flat-square&label=CI)](https://github.com/lihongjie0209/m3u8-detector/actions)
 
 </div>
 
